@@ -1,0 +1,82 @@
+#welcome {
+  padding: 40px;
+  text-align: center;
+  background: url(../../assets/img/university1.jpg) no-repeat;
+  background-size: cover;
+}
+
+#welcome .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 911px) {
+  #welcome .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 911px) {
+  .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .description {
+    text-align: center;
+  }
+}
+
+#logo {
+  max-height: 60px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-item-ho:hover {
+  color: rgba(0,0,0,.7);
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.article-list.back_grad {
+  background-image: linear-gradient(to right,#1D976C,#93F9B9);
+}
+
+#event_sec img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#event_sec {
+  height: 230px;
+}
+
+#event_container {
+  height: 230px;
+  display: flex;
+}
+
+.event_img {
+  max-width: 350px;
+  margin: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #cef1ff;
+  border-color: #097e40;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #097e40;
+  border-color: #097e40;
+}
+
